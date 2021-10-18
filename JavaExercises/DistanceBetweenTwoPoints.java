@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Distance {
+public class DistanceBetweenTwoPoints {
 
     public static void main(String[] args) {
 
@@ -22,8 +22,8 @@ public class Distance {
         System.out.print("Enter y2 point:");
         y2 = scanner.nextDouble();
 
-        distance=Math.sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
-        System.out.print("The distance is: "+distance);
+        distance = Math.sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
+        System.out.print("The distance is: " + distance);
     }
 
 }

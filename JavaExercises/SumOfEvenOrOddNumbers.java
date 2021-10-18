@@ -1,19 +1,17 @@
 import java.util.Scanner;
 
-public class evenOdd {
+public class SumOfEvenOrOddNumbers {
     public static void main(String[] args) {
-        Scanner scanner=new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Please enter a number:");
-        int num= scanner.nextInt();
+        int num = scanner.nextInt();
 
-        if (num % 2==0) {
+        if (num % 2 == 0) {
             System.out.print("Entered number is even.");
-        }
-        else {
+        } else {
             System.out.print("Entered number is odd.");
         }
-     }
-
+    }
 }
 
 
